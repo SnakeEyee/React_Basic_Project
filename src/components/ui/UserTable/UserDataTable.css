@@ -1,0 +1,40 @@
+.user-data-table {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.table .table-caption {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #ec540e;
+}
+
+.table {
+  table-layout: auto;
+  width: 80%;
+}
+
+.table,
+.table th,
+.table td {
+  border: 1px solid aqua;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+}
+
+.user-data-table .table .thead th {
+  background-color: #f2f2f2;
+  color: #ec540e;
+  font-weight: bold;
+}
+
+.user-data-table .tbody td {
+  background-color: #f9f9f9;
+  color: #ec540e;
+}

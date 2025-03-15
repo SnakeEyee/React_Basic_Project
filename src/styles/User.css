@@ -1,0 +1,15 @@
+.user-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+  gap: 20px;
+
+  height: 50vh;
+}
+
+.user-icon {
+  font-size: 10em;
+  color: #ec540e;
+}

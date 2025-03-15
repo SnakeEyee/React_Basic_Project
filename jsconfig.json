@@ -1,0 +1,18 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@api": ["api/*"],
+      "@assets": ["assets/*"],
+      "@comps/*": ["components/*"],
+      "@mware": ["middleware/*"],
+      "@pgs/*": ["pages/*"],
+      "@routes/*": ["src/routes/*"],
+      "@services/*": ["services/*"],
+      "@ui": ["components/ui/*"],
+      "@utils": ["utils/*"],
+      "@styles": ["styles/*"]
+    }
+  },
+  "include": ["src/**/*", "./src/styles/desktop/**/*.css", "src/routes"]
+}

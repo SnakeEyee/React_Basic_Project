@@ -1,0 +1,26 @@
+.search-input-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  padding: 0.5rem;
+  background-color: #f5f5f5;
+  border: 1px solid transparent;
+  border-radius: 10px;
+}
+
+.search-input {
+  background-color: transparent;
+  border: none;
+  border-radius: 10px;
+  width: 100%;
+}
+
+.search-input:focus {
+  outline: none;
+}
+
+.search-input-container:focus-within {
+  border: 1px solid #ec540e;
+  box-shadow: 0 0 10px 0 #00000040;
+}
